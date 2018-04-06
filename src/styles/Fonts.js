@@ -19,6 +19,6 @@ export default {
         font-size: 16px;
     `,
     lg: Text.extend`
-        font-size: 30px;
+        font-size: 34px;
     `
 }

@@ -6,8 +6,5 @@ export default {
     grey: '#7C8B9E',
     charcoal: '#3C5073',
     purple: '#C866F0',
-    blue: '#00BAFF',
-    yellow: '#F5D76E',
-    red: '#D52930',
-    green: '#00C662'
+    blue: '#00BAFF'
 };

@@ -1,9 +1,8 @@
 import moment from 'moment';
-import _ from 'lodash';
+import sortBy from 'lodash.sortby';
 
 export function sortByYear(albums) {
-    // return _.sortBy(albums ['releaseDate']);
-    return albums.sort((a,b) => b-a);
+    return sortBy(albums, 'releaseDate');
 }
 
 export function formatDates(albums) {
